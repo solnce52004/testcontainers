@@ -1,14 +1,19 @@
 ---
 spring:
   jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    generate-ddl: true
+    show-sql: true
+    # решает ошибку ClassCastException EntityManagerHolder
+    open-in-view: false
     hibernate:
       ddl-auto: none
   datasource:
-    url: jdbc:posgresql://localhost:5432/citizen
+    url: jdbc:postgresql://localhost:5432/citizen
     username: admin
     password: admin
     driver-class-name: org.postgresql.Driver
 
 ---
 service-fine:
-  base-url: http://localhost:8080/
+  base-url: http://localhost:8080
