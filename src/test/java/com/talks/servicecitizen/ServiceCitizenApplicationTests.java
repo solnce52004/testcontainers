@@ -1,4 +1,4 @@
-package com.jamatalks.servicecitizen;
+package com.talks.servicecitizen;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

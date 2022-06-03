@@ -1,4 +1,4 @@
-package com.jamatalks.citizen.entity;
+package com.talks.citizen.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

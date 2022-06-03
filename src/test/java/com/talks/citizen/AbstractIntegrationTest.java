@@ -1,4 +1,4 @@
-package com.jamatalks.citizen;
+package com.talks.citizen;
 
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.util.TestPropertyValues;

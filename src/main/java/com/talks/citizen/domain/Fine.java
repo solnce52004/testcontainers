@@ -1,4 +1,4 @@
-package com.jamatalks.citizen.domain;
+package com.talks.citizen.domain;
 
 import java.math.BigDecimal;
 import java.util.Date;

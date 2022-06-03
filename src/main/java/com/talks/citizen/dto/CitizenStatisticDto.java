@@ -1,4 +1,4 @@
-package com.jamatalks.citizen.dto;
+package com.talks.citizen.dto;
 
 import java.math.BigDecimal;
 

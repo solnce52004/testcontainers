@@ -1,11 +1,11 @@
-package com.jamatalks.citizen.controller;
+package com.talks.citizen.controller;
 
-import com.jamatalks.citizen.repo.CitizenRepository;
-import com.jamatalks.citizen.domain.Fine;
-import com.jamatalks.citizen.service.FineService;
-import com.jamatalks.citizen.exception.CitizenNotFoundException;
-import com.jamatalks.citizen.dto.CitizenStatisticDto;
-import com.jamatalks.citizen.entity.Citizen;
+import com.talks.citizen.repo.CitizenRepository;
+import com.talks.citizen.domain.Fine;
+import com.talks.citizen.service.FineService;
+import com.talks.citizen.exception.CitizenNotFoundException;
+import com.talks.citizen.dto.CitizenStatisticDto;
+import com.talks.citizen.entity.Citizen;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

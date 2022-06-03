@@ -1,6 +1,6 @@
-package com.jamatalks.citizen.repo;
+package com.talks.citizen.repo;
 
-import com.jamatalks.citizen.entity.Citizen;
+import com.talks.citizen.entity.Citizen;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

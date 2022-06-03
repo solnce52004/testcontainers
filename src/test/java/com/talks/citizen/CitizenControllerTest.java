@@ -1,6 +1,6 @@
-package com.jamatalks.citizen;
+package com.talks.citizen;
 
-import com.jamatalks.citizen.dto.CitizenStatisticDto;
+import com.talks.citizen.dto.CitizenStatisticDto;
 import org.junit.jupiter.api.Test;
 import org.mockserver.client.server.MockServerClient;
 import org.springframework.beans.factory.annotation.Autowired;

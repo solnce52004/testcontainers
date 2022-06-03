@@ -1,7 +1,7 @@
-package com.jamatalks.citizen.service;
+package com.talks.citizen.service;
 
-import com.jamatalks.citizen.domain.Fine;
-import com.jamatalks.citizen.entity.Citizen;
+import com.talks.citizen.domain.Fine;
+import com.talks.citizen.entity.Citizen;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
