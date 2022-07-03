@@ -2,7 +2,7 @@ package com.talks.citizen.dto;
 
 import java.math.BigDecimal;
 
-public class CitizenStatisticDto {
+public final class CitizenStatisticDto {
 
     public String firstName;
     public String lastName;
